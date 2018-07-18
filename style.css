@@ -28,10 +28,51 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
- @media only screen and (min-width: 768px) and (max-width: 1024px){
+ @media only screen and  (max-width: 480px){
    .parent{
      display: flex;
      flex-direction: column;
+     border:3px solid green;
+
+   }
+   .child1{
+     border:3px solid pink;
+     padding:3%;
+     margin:2%;
+     width:90%;
+     border-radius: 10%;
+     text-align: center;
+     font-size: 200%;
+     background-color: orange;
+   }
+   .child2{
+     border:3px solid pink;
+     padding:3%;
+     margin:2%;
+     width:90%;
+     border-radius: 10%;
+     background-color: skyblue;
+   }
+   img{
+       width:40%;
+       border:5px solid pink;
+       border-radius: 50%;
+       display:block;
+       margin-left: auto;
+       margin-right: auto;
+       box-shadow: 5px 5px 9px #000;
+   }
+   a{
+     word-wrap: break-word;
+   }
+   p{
+     word-wrap: break-word;
+   }
+ }
+ @media only screen and (min-width: 481px) and (max-width: 760px){
+   .parent{
+     display: flex;
+     flex-direction: row;
      border:3px solid green;
 
    }
